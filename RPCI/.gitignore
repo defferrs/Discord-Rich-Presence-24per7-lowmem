@@ -1,0 +1,5 @@
+.env
+node_modules
+# Dependency runtime yang sengaja dibundel untuk mode low-memory.
+!vendor/node_modules/
+!vendor/node_modules/**

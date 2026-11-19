@@ -1,0 +1,36 @@
+# ================================================
+# KONFIGURASI RPCI
+# ================================================
+
+# ID aplikasi Discord untuk Rich Presence.
+# Ganti dengan ID aplikasi yang kamu gunakan.
+application_id: "ISI_ID_APLIKASI_DISCORD"
+
+type: 0
+name: "Isi nama aktivitas"
+details: "Isi detail aktivitas"
+state: "Isi status aktivitas"
+
+# URL HTTPS gambar utama.
+# Ganti dengan URL langsung ke file gambar.
+largeImageKey: null
+largeImageText: "Isi teks gambar besar"
+# Isi largeImageKey dengan URL CDN Discord yang valid jika ingin menampilkan gambar besar.
+
+# URL HTTPS gambar kecil.
+# *atau biarkan null jika tidak ingin menggunakan gambar kecil.
+smallImageKey: null
+smallImageText: ""
+
+# URL activity.
+url: "https://contoh.com"
+
+# Tombol activity.
+buttons:
+  - name: "Isi nama tombol"
+    url: "https://contoh.com"
+  # *atau gunakan buttons: [] jika tidak ingin ada tombol.
+
+# Status kustom.
+custom_status: "Isi status kustom"
+custom_emoji: "🙂"

@@ -1,0 +1,12 @@
+STARTUP RPCI LOW-MEMORY
+
+Direkomendasikan:
+node index.js
+
+Project ini sengaja membundel dependency runtime di vendor/node_modules agar hosting
+low-memory tidak perlu menjalankan npm install setiap startup.
+
+Jika panel hosting memiliki startup command otomatis yang menjalankan npm install,
+pastikan perintah tersebut tidak dipaksa untuk project ini. Jika panel tetap
+menjalankannya, hapus package.json root bila ada dan gunakan:
+node index.js
